@@ -1,0 +1,5 @@
+name: llvm-trapezoidal-env
+
+dependencies:
+  - python=3.6
+  - llvmlite

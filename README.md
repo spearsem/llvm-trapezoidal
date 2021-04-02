@@ -6,7 +6,7 @@ the Python interface to LLVM, `llvmlite`.
 Projects such as `numba` (an advanced just-in-time compiler for Python) create user-friendly interfaces that
 automatically convert Python bytecode into llvm representations such as found in this project. It can be
 helpful to create a more concrete mental model of what `numba` is doing and how llvm really works by
-hand-writing an algorithm in llvm IR directly. In this reposirtory I consider doing that for the trapezoidal
+hand-writing an algorithm in llvm IR directly. In this repository I consider doing that for the trapezoidal
 rule, a popular algorithm for approximate numerical integration of functions.
 
 To compile the plain llvm implementation you can follow these instructions with a suitable llvm compiler installed
